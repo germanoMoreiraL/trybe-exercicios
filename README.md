@@ -1,1 +1,2 @@
 # trybe-exercicios
+Seção 01 - Estamos na seção 1, terminando o dia 01, assunto no momento é github, o objetivo é ir melhorando a cada dia nesse sistema de versionamento de código, pois usaremos ele durante toda a nossa vida como dev.
