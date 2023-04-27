@@ -3,15 +3,13 @@ h1, h3 {
 text-align: center;
 }
 
-#list li {
+ul {
+    text-align: center;
     list-style: none;
 }
 
-.second-list li {
-    text-align: center;
-    list-style: none;
+.premiacao ul li{
     display: inline;
-    margin-left: 200px;
 }
 
 .first {
