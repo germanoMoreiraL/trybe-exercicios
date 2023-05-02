@@ -123,7 +123,7 @@ let num3 = 15;
     }*/
 
 // Exercício 9
-let num1 = 46;
+/*let num1 = 46;
 let num2 = 30;
 let num3 = 25;
 
@@ -131,5 +131,16 @@ let num3 = 25;
         console.log(true);
     } else {
         console.log(false);
-    }
-    
+    }*/
+
+// Exercício 10
+let cost = 10;
+let value = 20;
+
+    if (cost >= 0 && value >= 0) {
+        let totalCost = cost * 1.2;
+        let profit = (value - totalCost) * 1000;
+        console.log(profit);
+    } else {
+        console.log('Error');
+    };
