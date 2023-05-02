@@ -1,25 +1,25 @@
 // Exercício 1
-let a = 15;
+/*let a = 15;
 let b = 5;
 
 console.log(a + b);
 console.log(a - b);
 console.log(a * b);
 console.log(a / b);
-console.log(a % b);
+console.log(a % b);*/
 
 // Exercício 2
-let number1 = 20;
+/*let number1 = 20;
 let number2 = 30;
 
     if (number1 > number2) {
         console.log('Número 1 é maior que número 2');
     } else {
         console.log('Número 2 é maior que número 1');
-    }
+    }*/
 
 // Exercício 3
-let numberOne = 5;
+/*let numberOne = 5;
 let numberTwo = 10;
 let numberThree = 15;
 
@@ -29,10 +29,10 @@ let numberThree = 15;
         console.log('numberTwo é maior que numberOne e numberThree');
     } else {
         console.log('numberThree é maior que numberOne e numberTwo');
-    }
+    }*/
 
 // Exercício 4
-let whatIs = 50;
+/*let whatIs = 50;
 
     if (whatIs > 0) {
         console.log('positive');
@@ -40,10 +40,10 @@ let whatIs = 50;
         console.log('negative');
     } else {
         console.log('zero')
-    }
+    }*/
 
 // Exercício 5
-let angle1 = 60;
+/*let angle1 = 60;
 let angle2 = 60;
 let angle3 = 60;
 
@@ -59,10 +59,10 @@ let allAnglesArePositive = angle1 > 0 && angle2 > 0 && angle3 > 0;
         }
     } else {
         console.log('Erro: ângulo inválido');
-    }
+    }*/
 
 // Exercício 6
-let chessPiece = 'queen';
+/*let chessPiece = 'queen';
 
 switch (chessPiece.toLowerCase()) {
     case 'queen':
@@ -90,4 +90,24 @@ switch (chessPiece.toLowerCase()) {
         break;
     default:
         console.log('Erro, peça inválida!');
-};
+};*/
+
+//Exercício 7
+let grade = 90;
+
+    if (grade < 0 || grade > 100) {
+        console.log('Erro, nota incorreta.');
+    } else if (grade >= 90) {
+        console.log('A');
+    } else if (grade >= 80) {
+        console.log('B');
+    } else if (grade >=70) {
+        console.log('C');
+    } else if (grade >=60) {
+        console.log('D');
+    } else if (grade >= 50) {
+        console.log('E');
+    } else {
+        console.log('F');
+    }
+    
