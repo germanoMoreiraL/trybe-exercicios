@@ -31,3 +31,63 @@ let numberThree = 15;
         console.log('numberThree é maior que numberOne e numberTwo');
     }
 
+// Exercício 4
+let whatIs = 50;
+
+    if (whatIs > 0) {
+        console.log('positive');
+    } else if (whatIs < 0) {
+        console.log('negative');
+    } else {
+        console.log('zero')
+    }
+
+// Exercício 5
+let angle1 = 60;
+let angle2 = 60;
+let angle3 = 60;
+
+let sumOfAngles = angle1 + angle2 + angle3;
+
+let allAnglesArePositive = angle1 > 0 && angle2 > 0 && angle3 > 0;
+
+    if (allAnglesArePositive) {
+        if (sumOfAngles === 180) {
+            console.log(true);
+        } else {
+            console.log(false);
+        }
+    } else {
+        console.log('Erro: ângulo inválido');
+    }
+
+// Exercício 6
+let chessPiece = 'queen';
+
+switch (chessPiece.toLowerCase()) {
+    case 'queen':
+        console.log('queen -> qualquer direção');
+        break;
+
+    case 'bishop':
+        console.log('bishop -> diagonal');
+        break;
+
+    case 'king':
+        console.log('king -> diagonal, horizontal, vertical');
+        break;
+
+    case 'knight':
+        console.log('knight -> diagonal');
+        break;
+
+    case 'rook':
+        console.log('rook -> horizontal');
+        break;
+
+    case 'pawn':
+        console.log('pawn -> vertical');
+        break;
+    default:
+        console.log('Erro, peça inválida!');
+};
