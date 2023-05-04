@@ -136,3 +136,37 @@
 
 // console.log(bigWord);
 // console.log(smallWord);
+
+// Exercício 13
+// let bigNumber = 0;
+
+// for (let number = 2; number < 50; number += 1) {
+//    let isPrime = true;
+//    for (let divisor = 2; divisor < number; divisor += 1) {
+//     if (number % divisor === 0) {
+//         isPrime = false
+//     }
+//    }
+//    if (isPrime) {
+//     bigNumber = number
+//    }
+// }
+// console.log(bigNumber);
+
+//Forma otimizada exercicio 13
+// let biggestPrimeNumber = 0;
+
+// for (let currentNumber = 50; currentNumber >= 2; currentNumber -= 1) {
+//   let isPrime = true;
+//   for (let currentDivisor = 2; currentDivisor < currentNumber; currentDivisor += 1) {
+//     if (currentNumber % currentDivisor === 0) {
+//       isPrime = false;
+//     }
+//   }
+//   if (isPrime) {
+//     biggestPrimeNumber = currentNumber;
+//     break; // O break finaliza a execução do laço For
+//   }
+// }
+
+// console.log(biggestPrimeNumber);
