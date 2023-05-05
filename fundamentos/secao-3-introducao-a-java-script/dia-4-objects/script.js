@@ -59,3 +59,46 @@
 // for (let key in car) {
 //   console.log(key + ': ' + car[key]);
 // }
+
+// Exercicio 6
+// student = {
+  
+// }
+
+// function addProperty(student, key, value) {
+//   student[key] = value;
+// }
+
+// addProperty(student, 'nome', 'Germano Moreira');
+// addProperty(student, 'email', 'ge260203@gmail.com');
+// addProperty(student, 'telefone', '51-995912003');
+// addProperty(student, 'linkedin', 'https://www.linkedin.com/feed/');
+
+// Exercício 7
+// let student1 = {
+//   html: 'Muito Bom',
+//   css: 'Bom',
+//   javascript: 'Ótimo',
+//   softskills: 'Ótimo',
+// };
+
+// let student2 = {
+//   html: 'Bom',
+//   css: 'Ótimo',
+//   javascript: 'Ruim',
+//   softskills: 'Ótimo',
+//   git: 'Bom', // chave adicionada
+// };
+
+// function listSkills(student) {
+//   let arrayOfSkills = Object.keys(student);
+//   for (let index in arrayOfSkills) {
+//     console.log(arrayOfSkills[index] + ', Nível: ' + student[arrayOfSkills[index]]);
+//   }
+// };
+
+// console.log('Estudante 1');
+// listSkills(student1);
+
+// console.log('Estudante 2');
+// listSkills(student2);
