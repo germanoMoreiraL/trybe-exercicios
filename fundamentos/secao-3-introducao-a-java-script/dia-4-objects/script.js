@@ -38,3 +38,24 @@
 // player.bestInTheWorld = [2006, 2007, 2008, 2009, 2010, 2018];
 
 // console.log(' A jogadora possui ' + player.medals.golden + ' medalhas de ouro e ' + player.medals.silver + ' medalhas de prata ');
+
+// Exercício 4
+// let names = {
+//   person1: 'João',
+//   person2: 'Maria',
+//   person3: 'Jorge',
+// };
+
+// for (let printName in names) {
+//   console.log(' Olá, ' + names[printName]); // printName percorre o names, por isso mostra todos os nomes.
+// }
+
+// Exercício 5
+// let car = {
+//   model: 'A3 Sedan',
+//   manufacturer: 'Audi',
+//   year: 2020
+// };
+// for (let key in car) {
+//   console.log(key + ': ' + car[key]);
+// }
