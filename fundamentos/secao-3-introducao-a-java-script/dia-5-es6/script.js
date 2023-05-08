@@ -62,3 +62,50 @@
 // ); 
 
 // console.log(speedCar(speed));
+
+// Exercicios  - mais pratica, 1
+// 1 – Crie uma função que ligue e desligue o motor de um carro
+// const engineOnAndOf = (status) => {
+//   if (status === 'Desligado') {
+//     status = 'Ligado';
+//   } else {
+//     status = 'Desligado';
+//   }
+//   console.log(`O motor está ${status}`);
+//   return status;
+// };
+// engineOnAndOf('Desligado');
+
+// 2 – Crie uma função que calcule a área de um círculo
+// const circleArea = (radius) => {
+//   const PI = 3.14;
+
+// if (typeof radius !== 'number') {
+//   return 'O paramentro deve ser um número';
+// }
+
+//   let area = PI * (radius ** 2);
+//   return `Esta é a área do círculo: ${area}`;
+// };
+// console.log(circleArea(5));
+
+//3 – Crie uma função que receba uma frase como parâmetro e retorne a maior palavra da frase
+// const longestWord = (text) => {
+//   const wordArray = text.split(' ');
+
+//   let maxLength = 0;
+//   let biggestWord = '';
+
+//   for (const word of wordArray) {
+//     if (word.length > maxLength) {
+//       maxLength = word.length;
+//       biggestWord = word;
+//     }
+//   }
+    
+//   return biggestWord;
+
+
+// };
+
+// console.log(longestWord('Antonio foi ao banheiro e não sabemos o que aconteceu'));
