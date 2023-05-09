@@ -74,7 +74,16 @@
 //   console.log(`O motor está ${status}`);
 //   return status;
 // };
-// engineOnAndOf('Desligado');
+// engineOnAndOf('Ligado');
+
+//outro jeito
+
+// const ligarDesligar = (status) => {
+//   status = status === 'desligado' ? 'ligado' : 'desligado';
+//   console.log(`O motor está ${status}`);
+//   return status;
+// };
+// ligarDesligar('Desligado');
 
 // 2 – Crie uma função que calcule a área de um círculo
 // const circleArea = (radius) => {
