@@ -1,0 +1,94 @@
+
+ html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.5rem;
+  margin: 5px;
+}
+
+article {
+  /* display: flex;
+  flex-direction: column;
+  text-align: center; */
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.7rem;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+figure {
+  padding: 10px;
+  background: black;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: blueviolet;
+    margin: 25px 6%;
+  }
+
+  section {
+    justify-content: center;
+  }
+
+  figure {
+    width: 45%;
+    margin-right: 15px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background-color: mediumaquamarine;
+    margin: 25px 10%;
+    /* margin: 10px; */
+    max-width: 90%;
+  }
+
+  figure {
+    width: 30%;
+    margin-right: 2.5%;
+  }
+
+  section {
+    justify-content: center;
+  }
+}
