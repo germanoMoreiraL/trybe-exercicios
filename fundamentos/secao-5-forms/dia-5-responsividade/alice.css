@@ -1,0 +1,162 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(245, 232, 215);
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+}
+
+#title {
+  text-align: center;
+  font-size: 2.5rem;
+  background-color: rgb(136, 39, 39);
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+  color: antiquewhite;
+}
+
+#navigation {
+  /* margin-left: 100px; */
+  padding: 20px;
+}
+
+#navigation ul {
+  list-style: none;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  line-height: 2;
+}
+
+.asides {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.asides .aside-one {
+  align-self: center;
+}
+
+.asides .aside-two {
+  padding: 5px;
+}
+
+.asides .aside-two h2 {
+  margin-left: 100px;
+}
+
+/* .aside-one {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+} */
+
+.aside-one ul {
+  list-style: none;
+}
+
+/* .aside-two {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+} */
+
+.aside-two ul {
+  list-style: none;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content h1 {
+  align-self: center;
+}
+
+.paragraph {
+  align-self: center;
+  max-width: 50%;
+}
+
+#footer {
+  background-color: rgb(136, 39, 39);
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content {
+  margin-left: 10px;
+}
+
+/* TELAS PEQUENAS */
+@media screen and (max-width: 700px) {
+  #title {
+    position: fixed;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  #navigation {
+    margin-top: 50px;
+  }
+  
+  .asides {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .aside-one h2 {
+    margin-left: 80px;
+  }
+
+  .paragraph {
+    max-width: 80%;
+  }
+}
+
+/* TELAS MÉDIAS */
+@media screen and (min-width: 701px) and (max-width: 1200px) {
+  #title {
+    width: 100%;
+    border-radius: 0;
+    height: 100px;
+    position: fixed;
+  }
+
+  #navigation {
+    margin-top: 80px;
+    position: fixed;
+  }
+
+  .asides {
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 120px;
+  }
+
+  .aside-one h2 {
+    margin-left: 80px;
+  }
+
+  .paragraph {
+    max-width: 75%;
+  }
+}
