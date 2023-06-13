@@ -13,23 +13,23 @@
 
 // 2
 
-const user = {
-  name: 'Maria',
-  age: 21,
-  nationality: 'Brazilian',
-};
+// const user = {
+//   name: 'Maria',
+//   age: 21,
+//   nationality: 'Brazilian',
+// };
 
-const jobInfos = {
-  profession: 'Software engineer',
-  squad: 'Rocket Landing Logic',
-  squadInitials: 'RLL',
-};
+// const jobInfos = {
+//   profession: 'Software engineer',
+//   squad: 'Rocket Landing Logic',
+//   squadInitials: 'RLL',
+// };
 
-const returnObj = {
-  ...user, ...jobInfos
-};
+// const returnObj = {
+//   ...user, ...jobInfos
+// };
 
-const {name, age, nationality, profession, squad, squadInitials} = returnObj;
+// const {name, age, nationality, profession, squad, squadInitials} = returnObj;
 
-console.log(`Hi, my name is ${name}, I'm ${age} years old and I'm ${nationality}. I work as a ${profession} and my squad is ${squadInitials}-${squad}`);
+// console.log(`Hi, my name is ${name}, I'm ${age} years old and I'm ${nationality}. I work as a ${profession} and my squad is ${squadInitials}-${squad}`);
 // console.log(returnObj);
